@@ -1,0 +1,22 @@
+{
+  "name": "alarm",
+  "version": "0.0.1",
+  "description": "A simple alarm with SQLite database",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon --exec \"cls && node -r esm db.test.js && node -r esm play.test.js\" --watch *.js",
+    "start": "node -r esm index.js",
+    "dev": "nodemon --exec \"cls && node -r esm index.js\" --watch *.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ascii-text-generator": "^1.0.5",
+    "readline": "^1.3.0",
+    "sqlite3": "^5.0.0"
+  },
+  "devDependencies": {
+    "esm": "^3.2.25"
+  }
+}
